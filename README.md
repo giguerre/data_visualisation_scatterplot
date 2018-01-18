@@ -10,7 +10,25 @@ Réf: <https://visage.co/data-visualization-101-scatter-plots/>
 
 They can show large quantities of data and make it easy to see correlation between variables and clustering effects. As a quick overview and analytical tool, scatterplots are invaluable and work with almost any continuous scale data.
 
-**Ok it's an efficient component for correlation!  but?**
+Unlike other charts, scatter plots have the ability **to show trends, clusters, patterns, and relationships in a cloud of data points—especially a very large one.**
+
+Let's take a simple exemple, the two figure below can demonstat a relation between two attributs in a positive or a negative relationship.
+
+![positive_corelation](https://hlhaylac2v-flywheel.netdna-ssl.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-20-at-9.44.07-AM.png)
+
+![negative_correlation](https://hlhaylac2v-flywheel.netdna-ssl.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-20-at-9.44.56-AM.png)
+
+
+**One of the advenced use of scatterplot is in astronomy**In fact, Ejnar Hertzprung recorded the luminosity of stars versus their colors.he noticed some correlations and trends. But it wasn’t until he and American astronomer Henry Norris Russell independently plotted that data between 1911 and 1913 that they noticed something that would change our understanding of the cosmos.
+
+Today, a scatterplot graphic is called Hertzprung-Russell Diagram, is used to compare the relation of stars ( luminosity / colors ), and study can go further and estimate the type and age of these stars. 
+**this a newly plotted diagram showing 22 000 stars!**
+
+![I_love_scatter_plot](https://hlhaylac2v-flywheel.netdna-ssl.com/wp-content/uploads/2015/01/HRDiagram.png)
+
+
+#
+**Ok it's an efficient component for correlation! but there is always a but?**
 
 Scatterplots may not be used too often in infographics, but they definitely have their place. They can show large quantities of data and make it easy to see correlation between variables and clustering effects. As a quick overview and analytical tool, scatterplots are invaluable and work with almost any continuous scale data.
 
@@ -20,6 +38,6 @@ A scatterplot works by placing one dimension on the vertical axis and a differen
 
 Réf:<https://visual.ly/blog/the-pros-and-cons-of-scatterplots/>
 
-**Hmm a lot of technical word,but can you just tell me what's are the major cause of problems facing scatterplot?**
+**Hmm a lot of technical words,but can you just tell me what's are the major causes of problems facing scatterplot?**
 
 The major cause of problems with scatterplots is discretization of values. This happens when decimal places are rounded off, measurements are not accurate enough, or a data field is categorical. The scatterplot below uses a standardized dataset about cars. The problems with this scatterplot all derive from the x-axis; number of cylinders. There are so few values that cylinders is really a categorical scale being represented using numbers. This causes overplotting problems so there are hundreds of values all stacked on top of each other. This makes it difficult to see the full quantity of values in the dataset, and correlation and clustering is harder to find with so few possible values on the x-axis.
