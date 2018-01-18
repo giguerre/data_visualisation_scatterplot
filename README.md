@@ -41,3 +41,24 @@ Réf:<https://visual.ly/blog/the-pros-and-cons-of-scatterplots/>
 **Hmm a lot of technical words,but can you just tell me what's are the major causes of problems facing scatterplot?**
 
 The major cause of problems with scatterplots is discretization of values. This happens when decimal places are rounded off, measurements are not accurate enough, or a data field is categorical. The scatterplot below uses a standardized dataset about cars. The problems with this scatterplot all derive from the x-axis; number of cylinders. There are so few values that cylinders is really a categorical scale being represented using numbers. This causes overplotting problems so there are hundreds of values all stacked on top of each other. This makes it difficult to see the full quantity of values in the dataset, and correlation and clustering is harder to find with so few possible values on the x-axis.
+#
+# My own judgement! 
+J’ai effectué pas mal de projet de type Data science dont j’étais amené à réalisé des benschamrkin entre les différents modèles mathématiques existants, et précisément lorsque je veux avoir une idée sur la tendance de mes données afin de concevoir un modèle prédictive, je me base à 80% sur ce type de graphique, surtout pour la régression.les autres 20% c'est pour les arbres de décision.
+Les recherches effectuées m’ont confirmé de plus la relation étroite entre le scatterplot et la corrélation. 
+#
+# Did you get interessed? please check this book( Pdf format), you will not regret it! 
+<http://www.datavis.ca/papers/friendly-scat.pdf>
+#
+
+*Réalisé par Idriss El boujdaini*
+
+*Elève Ingénieur à l'école centrale de Lyon*
+
+![logo](http://www.ec-lyon.fr/sites/default/files/styles/full/public/legacy-files/logo_ecl_carre_q.png?itok=2o9ThrG2)
+
+
+
+
+
+
+
